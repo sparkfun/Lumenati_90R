@@ -172,11 +172,11 @@ F 3 "" H 3050 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 10600 7650 0    60   ~ 0
-v01
+v10
 Text Notes 8250 7650 0    60   ~ 0
 7/5/17
 Text Notes 7350 7500 0    60   ~ 0
-HiBeams 90R
+Lumenati 90R
 $Comp
 L +5V #PWR04
 U 1 1 591A34CC
