@@ -28,37 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:APA102
-LIBS:SparkFun-Aesthetics
-LIBS:SparkFun-Batteries
-LIBS:SparkFun-Boards
-LIBS:SparkFun-Capacitors
-LIBS:SparkFun-Clocks
-LIBS:SparkFun-Coils
-LIBS:SparkFun-Connectors
-LIBS:SparkFun-DiscreteSemi
-LIBS:SparkFun-Displays
-LIBS:SparkFun-Electromechanical
-LIBS:SparkFun-Fuses
-LIBS:SparkFun-GPS
-LIBS:SparkFun-Hardware
-LIBS:SparkFun-IC-Amplifiers
-LIBS:SparkFun-IC-Comms
-LIBS:SparkFun-IC-Conversion
-LIBS:SparkFun-IC-Logic
-LIBS:SparkFun-IC-Memory
-LIBS:SparkFun-IC-Microcontroller
-LIBS:SparkFun-IC-Power
-LIBS:SparkFun-IC-Special-Function
-LIBS:SparkFun-Jumpers
-LIBS:SparkFun-LED
-LIBS:SparkFun-PowerSymbols
-LIBS:SparkFun-Resistors
-LIBS:SparkFun-RF
-LIBS:SparkFun-Sensors
-LIBS:SparkFun-Switches
-LIBS:HiBeams_90R-cache
-EELAYER 26 0
+LIBS:Lumenati_90R-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -108,34 +79,34 @@ $EndComp
 $Comp
 L C C1
 U 1 1 591344EB
-P 5250 4950
-F 0 "C1" V 5200 4850 50  0000 C CNN
-F 1 "0.1uF" V 5200 5100 50  0000 C CNN
-F 2 "Pete:0603_revised" H 5288 4800 50  0001 C CNN
-F 3 "" H 5250 4950 50  0001 C CNN
-	1    5250 4950
+P 5400 4800
+F 0 "C1" V 5350 4700 50  0000 C CNN
+F 1 "0.1uF" V 5350 4950 50  0000 C CNN
+F 2 "Pete:0603_revised" H 5438 4650 50  0001 C CNN
+F 3 "" H 5400 4800 50  0001 C CNN
+	1    5400 4800
 	-1   0    0    1   
 $EndComp
 $Comp
 L C C2
 U 1 1 59134598
-P 5800 4950
-F 0 "C2" V 5750 4850 50  0000 C CNN
-F 1 "0.1uF" V 5750 5100 50  0000 C CNN
-F 2 "Pete:0603_revised" H 5838 4800 50  0001 C CNN
-F 3 "" H 5800 4950 50  0001 C CNN
-	1    5800 4950
+P 5950 4800
+F 0 "C2" V 5900 4700 50  0000 C CNN
+F 1 "0.1uF" V 5900 4950 50  0000 C CNN
+F 2 "Pete:0603_revised" H 5988 4650 50  0001 C CNN
+F 3 "" H 5950 4800 50  0001 C CNN
+	1    5950 4800
 	-1   0    0    1   
 $EndComp
 $Comp
 L C C3
 U 1 1 59134604
-P 6350 4950
-F 0 "C3" V 6300 4850 50  0000 C CNN
-F 1 "0.1uF" V 6300 5100 50  0000 C CNN
-F 2 "Pete:0603_revised" H 6388 4800 50  0001 C CNN
-F 3 "" H 6350 4950 50  0001 C CNN
-	1    6350 4950
+P 6500 4800
+F 0 "C3" V 6450 4700 50  0000 C CNN
+F 1 "0.1uF" V 6450 4950 50  0000 C CNN
+F 2 "Pete:0603_revised" H 6538 4650 50  0001 C CNN
+F 3 "" H 6500 4800 50  0001 C CNN
+	1    6500 4800
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -297,81 +268,81 @@ Wire Wire Line
 $Comp
 L GND #PWR09
 U 1 1 592F86ED
-P 5250 5300
-F 0 "#PWR09" H 5250 5050 50  0001 C CNN
-F 1 "GND" H 5255 5127 50  0000 C CNN
-F 2 "" H 5250 5300 50  0001 C CNN
-F 3 "" H 5250 5300 50  0001 C CNN
-	1    5250 5300
+P 5400 5150
+F 0 "#PWR09" H 5400 4900 50  0001 C CNN
+F 1 "GND" H 5405 4977 50  0000 C CNN
+F 2 "" H 5400 5150 50  0001 C CNN
+F 3 "" H 5400 5150 50  0001 C CNN
+	1    5400 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR010
 U 1 1 592F8720
-P 5800 5300
-F 0 "#PWR010" H 5800 5050 50  0001 C CNN
-F 1 "GND" H 5805 5127 50  0000 C CNN
-F 2 "" H 5800 5300 50  0001 C CNN
-F 3 "" H 5800 5300 50  0001 C CNN
-	1    5800 5300
+P 5950 5150
+F 0 "#PWR010" H 5950 4900 50  0001 C CNN
+F 1 "GND" H 5955 4977 50  0000 C CNN
+F 2 "" H 5950 5150 50  0001 C CNN
+F 3 "" H 5950 5150 50  0001 C CNN
+	1    5950 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR011
 U 1 1 592F8753
-P 6350 5300
-F 0 "#PWR011" H 6350 5050 50  0001 C CNN
-F 1 "GND" H 6355 5127 50  0000 C CNN
-F 2 "" H 6350 5300 50  0001 C CNN
-F 3 "" H 6350 5300 50  0001 C CNN
-	1    6350 5300
+P 6500 5150
+F 0 "#PWR011" H 6500 4900 50  0001 C CNN
+F 1 "GND" H 6505 4977 50  0000 C CNN
+F 2 "" H 6500 5150 50  0001 C CNN
+F 3 "" H 6500 5150 50  0001 C CNN
+	1    6500 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR012
 U 1 1 592F8895
-P 5250 4650
-F 0 "#PWR012" H 5250 4500 50  0001 C CNN
-F 1 "+5V" H 5265 4823 50  0000 C CNN
-F 2 "" H 5250 4650 50  0001 C CNN
-F 3 "" H 5250 4650 50  0001 C CNN
-	1    5250 4650
+P 5400 4500
+F 0 "#PWR012" H 5400 4350 50  0001 C CNN
+F 1 "+5V" H 5415 4673 50  0000 C CNN
+F 2 "" H 5400 4500 50  0001 C CNN
+F 3 "" H 5400 4500 50  0001 C CNN
+	1    5400 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR013
 U 1 1 592F897C
-P 5800 4650
-F 0 "#PWR013" H 5800 4500 50  0001 C CNN
-F 1 "+5V" H 5815 4823 50  0000 C CNN
-F 2 "" H 5800 4650 50  0001 C CNN
-F 3 "" H 5800 4650 50  0001 C CNN
-	1    5800 4650
+P 5950 4500
+F 0 "#PWR013" H 5950 4350 50  0001 C CNN
+F 1 "+5V" H 5965 4673 50  0000 C CNN
+F 2 "" H 5950 4500 50  0001 C CNN
+F 3 "" H 5950 4500 50  0001 C CNN
+	1    5950 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR014
 U 1 1 592F89AF
-P 6350 4650
-F 0 "#PWR014" H 6350 4500 50  0001 C CNN
-F 1 "+5V" H 6365 4823 50  0000 C CNN
-F 2 "" H 6350 4650 50  0001 C CNN
-F 3 "" H 6350 4650 50  0001 C CNN
-	1    6350 4650
+P 6500 4500
+F 0 "#PWR014" H 6500 4350 50  0001 C CNN
+F 1 "+5V" H 6515 4673 50  0000 C CNN
+F 2 "" H 6500 4500 50  0001 C CNN
+F 3 "" H 6500 4500 50  0001 C CNN
+	1    6500 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 4650 5250 4800
+	5400 4500 5400 4650
 Wire Wire Line
-	5250 5100 5250 5300
+	5400 4950 5400 5150
 Wire Wire Line
-	5800 4650 5800 4800
+	5950 4500 5950 4650
 Wire Wire Line
-	5800 5100 5800 5300
+	5950 4950 5950 5150
 Wire Wire Line
-	6350 4650 6350 4800
+	6500 4500 6500 4650
 Wire Wire Line
-	6350 5100 6350 5300
+	6500 4950 6500 5150
 $Comp
 L CONN_041X04_NO_SILK J1
 U 1 1 592F91A7
@@ -496,4 +467,6 @@ Wire Wire Line
 	8150 3250 8450 3250
 Wire Wire Line
 	8150 3350 8450 3350
+Text Notes 6350 1400 0    79   ~ 0
+Note: JP1 and JP2 are present so the user can disconnect clock and data\nsignals from subsequent boards, allowing you to make a closed loop design\nwithout having the logic from the last board interfere with the logic of the\nfirst. They are normally closed, so open them if you're making a closed\nloop design.
 $EndSCHEMATC
