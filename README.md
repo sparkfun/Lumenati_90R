@@ -1,41 +1,23 @@
-SparkFun <PRODUCT NAME>
+SparkFun Lumenati 90R
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+![SparkFun Lumenati 90R](https://cdn.sparkfun.com//assets/parts/1/2/3/5/4/14358-01.jpg)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Lumenati 90R (COM-14358)*](https://www.sparkfun.com/products/14358)
 
-<Basic description of the part.>
+The SparkFun Lumenati 90R is a small quarter-circle board equipped with three APA102C LEDs and a single mounting position that has been designed to give your projects an edge in their lighting capacity. The 90R board has been specifically designed to be daisy-chained with other Lumenati boards, thanks to the castellated edge connectors at each end allowing for multiple design options and formations. 
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
-* **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
-* **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
+* **/Hardware** - KiCad design files.
+* **/Production** - Production panel files.
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
-
-Product Versions
-----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU] (retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* **[Example Code](https://github.com/sparkfun/SparkFun_Lumenati_Code)** - Python and Arduino example code for the Lumenati boards.
+* **[FastLED Arduino Library](https://github.com/FastLED/FastLED)** - FastLED Arduino library when using the Lumenati with an Arduino.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lumenati-hookup-guide)** - Basic hookup guide for the SparkFun Lumenati boards.
 
 License Information
 -------------------
